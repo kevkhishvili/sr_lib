@@ -55,7 +55,7 @@ class Uploader
             
             if ($file) {
                 
-                $new_file = fopen($_SERVER['DOCUMENT_ROOT'] . "/" . $this->path . "/" time()."_". md5($name) . "." . $ext_by_mime, 'wb');
+                $new_file = fopen($_SERVER['DOCUMENT_ROOT'] . "/" . $this->path . "/" . time()."_". md5($name) . "." . $ext_by_mime, 'wb');
                 
                 if ($new_file) {
                     while (! feof($file)) {
