@@ -1,0 +1,20 @@
+{
+    "name": "uploader",
+    "description": "uploader",
+    "authors": [
+        {
+            "name": "Sergei",
+            "email": "mmx550@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+"autoload": {
+    "psr-4": {
+      "uploader\\lib\\": "lib/"
+    }
+  }
+    
+}
